@@ -4,6 +4,7 @@
 
 import sys
 
+## this in an edit
 def Encrypt(shift, file):
     if isinstance(shift, int) and isinstance(file, str):
             f = open(file)
